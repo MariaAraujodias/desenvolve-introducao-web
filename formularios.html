@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Forms</title>
+</head>
+<body>
+    <h1>formulario de pesquisa</h1>
+    <form method="post" action="processar_pesqquisa_html"></form>
+    <section>
+        <p>
+        <label for="login">SEU NOME:</label>
+        <input type="text" placeholder="nome" id="login"/>
+        </p>
+        <p>
+        <label for="email">SEU E-MAIL:</label>
+        <input type="email" placeholder="seu e-mail" id="e-mail"/>
+        </p>
+        <p>
+            <label for="telefone">SEU TELEFONE DE CONTATO</label>
+            <input type="telefone" placeholder="sue telefone de contato" id="telefone de contato"/>
+        </p>
+    </section>
+    <section>
+    <h2>Dados de pesquisa</h2>
+    <p>
+    numa escala de 1 a 5 0 quanto vc gosta de progamação
+    <input type="radio"  id="1" name="nivel de progamação"/>
+    <input type="radio"  id="2" name="nivel de progamação"/>
+    <input type="radio"  id="3" name="nivel de progamação"/>
+    <input type="radio"  id="4" name="nivel de progamação"/>
+    <input type="radio"  id="5" name="nivel de progamação"/>
+    </p>
+    <p>
+    numa escala de 1 a 5 o quanto vc entende de progamação
+    <input type="radio" id="1" name="nivel de entendimento" />
+    <input type="radio" id="2" name="nivel de entendimento" />
+    <input type="radio" id="3" name="nivel de entendimento" />
+    <input type="radio" id="4" name="nivel de entendimento" />
+    <input type="radio" id="5" name="nivel de entendimento" />
+    </p>
+    
+    <p>
+     <label for="Qual curso vc mais gostou ate agora" > curso projeto desenvolve:</label>
+     <select>
+        <option>Trilha de Scratch</option>
+        <option>Trilha de Elementos de Interface</option>
+        <option>trilha de Linux</option>
+        <option>Trilha de web</option>
+        <option>Python</option>
+        <option>No Code</option>
+     </select>
+    </p>
+    <p>
+    <input type="checkbox"  id="compartilhar dados">
+    <label for="compartilhar dados">Autorizo compartilhar dados com terceiros</label>
+    </p>
+    </section>
+    <input type="submit" value="Enviar" />
+    </form>
+    
+
+</body>
